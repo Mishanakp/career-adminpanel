@@ -1,0 +1,144 @@
+body{
+    overflow-x: hidden;
+  }
+  .career1{display: none;}
+.career{
+    padding-top: 100px;
+    /* background-image: url("C:\Users\ANU\websoullabs\src\Asset\abstract-shapes-minimalism-blue-background-wallpaper.jpg"); */
+    min-height: 86vh;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;}
+    .css-10f0l67-MuiPaper-root-MuiAppBar-root {height: 65px;
+    }
+      .weblogo{width: 100px;
+      height: 60px;
+      padding-left: 30px;
+      transform: translateY(1px);
+      }
+      /**********************************************************************************************/
+.username{text-align: left !important;
+/*padding-left: 150px;*/
+font-weight: 500;
+font-size: 1rem;}
+#button{background-color:rgba(75, 165, 225, 0.81) !important;
+width: 410px;
+height: 56px;
+margin-top: 30px !important;
+}
+/*top padding*/
+.css-1rv3ei8-MuiFormControl-root-MuiTextField-root {
+margin-top: 0px !important;
+}
+/*#use{padding-top: 80px!important;}*/
+/*text field width*/
+#input-with-icon-textfield{width: 350px;}
+#card{
+  text-align: left;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  padding-left: 120px;
+  padding-right: 110px;
+}
+/*************************************1024***************************************************************/
+@media screen and (max-width:1025px) {
+  .username {
+    text-align: left !important;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: gray;
+}
+.career{
+  padding-top: 170px;
+}
+#button{background-color:rgba(75, 165, 225, 0.81) !important;
+  width: 410px;
+  height: 56px;
+  margin-top: 30px !important;
+  }
+  #card{
+    text-align: left;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 115px;
+    padding-right: 110px;
+  }
+}
+/************************************************769****************************************************/
+@media screen and (max-width:769px) {
+  .career{
+    padding-top: 100px;
+  }
+  #card{
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #button{background-color:rgba(75, 165, 225, 0.81) !important;
+    width: 385px;
+    height: 56px;
+    margin-top: 30px !important;
+    }
+}
+@media screen and (max-width:426px) {
+  #card{
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /*button*/
+  #button{background-color:rgba(75, 165, 225, 0.81) !important;
+    width: 300px;
+    height: 56px;
+    margin-top: 30px !important;
+    }
+    /*text field width*/
+#input-with-icon-textfield{width: 240px;}
+#card{
+  text-align: left;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 24px;
+  padding-right: 20px;
+transform: translateX(35px);
+}
+.career{display: none;}
+.career1{
+display: block;
+  padding-top: 100px;
+  /* background-image: url("C:\Users\ANU\websoullabs\src\Asset\abstract-shapes-minimalism-blue-background-wallpaper.jpg"); */
+  min-height: 84vh;
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;}
+}
+/****************************375*****************************/
+@media screen and (max-width:376px) {
+    /*button*/
+    #button{background-color:rgba(75, 165, 225, 0.81) !important;
+      width: 265px;
+      height: 56px;
+      margin-top: 30px !important;
+      }
+      /*text field width*/
+#input-with-icon-textfield{width: 200px;}
+}
+@media screen and (max-width:321px) {
+    /*button*/
+    #button{background-color:rgba(75, 165, 225, 0.81) !important;
+      width: 215px;
+      height: 56px;
+      margin-top: 30px !important;
+      }
+      /*text field width*/
+#input-with-icon-textfield{width: 150px;}
+}
