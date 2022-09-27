@@ -2,7 +2,9 @@ import React from 'react'
 
 function Consultantdetail() {
   return (
-    <div>Consultantdetail</div>
+    <div>
+      working
+    </div>
   )
 }
 
