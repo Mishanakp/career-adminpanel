@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .origConsultant{
-    margin-top: -100px;
+   
     margin-left: 100px;
 }
 @media only screen and (max-width:1024px){
@@ -24,7 +24,7 @@
  .ConsultantdetBox{
     height: 750px !important;
     font-family: 'Poppins', sans-serif;
-    margin-top: 100px; 
+
  }
  .consultantTab{
     width: 250px;
@@ -232,17 +232,20 @@
       padding-right: 180px !important; 
       font-size: 20px !important; 
       margin-left:    0px !important; 
+      align-self:flex-start  !important;
    }
    .consultantAppt{
+    align-self:flex-start  !important;
       margin-top: 30px !important; 
-      padding-left: 70px !important;  
+      padding-left: 32px !important;  
       padding-right: 180px !important; 
       font-size: 20px !important; 
       margin-left: 15px !important; 
    }
    .consultantHis{
+    align-self:flex-start  !important;
       margin-top: 30px !important; 
-      padding-left: 80px !important;  
+      padding-left: 90px !important;  
       padding-right: 200px !important; 
       font-size: 20px !important; 
       margin-left: -10px !important; 
@@ -948,7 +951,7 @@
  }   
  
  .dupConsultant{
-   margin-top: 170px;
+   margin-top: 0px !important;
 }
  .consultantAccordHead1{
    color: #23BDB8;
