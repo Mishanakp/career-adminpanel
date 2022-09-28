@@ -1,15 +1,3 @@
-// import React from 'react'
-
-// function Login() {
-//   return (
-//     <div>
-
-//     </div>
-//   )
-// }
-
-// export default Login
-
 import React, { Component } from "react";
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -22,15 +10,15 @@ import InputAdornment from '@mui/material/InputAdornment';
 import TextField from '@mui/material/TextField';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import LockIcon from '@mui/icons-material/Lock';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
+// import AppBar from '@mui/material/AppBar';
+// import Toolbar from '@mui/material/Toolbar';
 import Dialog from '@mui/material/Dialog';
 import { DialogActions } from '@mui/material';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import './Login.css'
-// import Headerlogin from "../Compnent/Header/Headerlogin";
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -38,7 +26,7 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
   color: theme.palette.text.secondary,
 }));
-class Loginpage extends Component{
+class  Login extends Component{
   constructor(props) {
     super(props);
     this.state = {
@@ -59,8 +47,8 @@ class Loginpage extends Component{
     });
   };
   signIn = () => {
-    if (this.state.username === "websouladmin" && this.state.password === "password") {
-      window.open("/homepage", "_self");
+    if (this.state.username === "mmadmin" && this.state.password === "password") {
+      window.open("/Admintab", "_self");
     } else {
       this.setState({
         open: true,
@@ -86,6 +74,7 @@ class Loginpage extends Component{
                <p className="username" id="use">Username
                </p>
                <TextField  // pass down to FormLabel as children
+               className="logintextarea"
     name="Username"
               placeholder= 'Username'
               margin="normal"
@@ -104,6 +93,7 @@ class Loginpage extends Component{
             />
              <p className="username">Password</p>
              <TextField
+             className="logintextarea"
              id="input-with-icon-textfield"
              variant="outlined"
               placeholder="Password"
@@ -122,6 +112,7 @@ class Loginpage extends Component{
             />
     <br/>
              <Button
+             
               variant="contained"
               id="button"
               onClick={() => {
@@ -230,7 +221,7 @@ class Loginpage extends Component{
   );
 }
 }
-export default Loginpage
+export default  Login
 
 
 
