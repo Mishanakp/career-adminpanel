@@ -1,0 +1,133 @@
+body{
+    overflow-x: hidden;
+  }
+  .career1{display: none;}
+.career{
+    padding-top: 100px;
+    background-image: url("https://garden.spoonflower.com/c/10847410/p/f/m/7vlotsOkPVAq7R73XX1FrnqFNXB9ubsJnOWmQTksq34fSgjJesXn/Zomp%20Green%20Solid%20Color.jpg"); 
+    min-height: 86vh;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;}
+
+.username{text-align: left !important;
+font-weight: 500;
+font-size: 1rem;}
+#button{background-color:#23BDB8 !important;
+width: 386px;
+height: 56px;
+margin-top: 40px !important;
+}
+
+.logintextarea{margin-top: 0px !important;}
+
+#input-with-icon-textfield{width: 350px;}
+#card{
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 110px;
+}
+/*************************************1024***************************************************************/
+@media screen and (max-width:1025px) {
+  .username {
+    text-align: left !important;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: gray;
+}
+.career{
+  padding-top: 170px;
+}
+#button{background-color:#23BDB8 !important;
+  width: 410px;
+  height: 56px;
+  margin-top: 30px !important;
+  }
+  #card{
+    text-align: left;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 115px;
+    padding-right: 110px;
+  }
+}
+/************************************************769****************************************************/
+@media screen and (max-width:769px) {
+  .career{
+    padding-top: 100px;
+  }
+  #card{
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #button{background-color:#23BDB8 !important;
+    width: 385px;
+    height: 56px;
+    margin-top: 30px !important;
+    }
+}
+@media screen and (max-width:426px) {
+  #card{
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /*button*/
+  #button{background-color:#23BDB8 !important;
+    width: 300px;
+    height: 56px;
+    margin-top: 30px !important;
+    }
+    /*text field width*/
+#input-with-icon-textfield{width: 240px;}
+#card{
+  text-align: left;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 24px;
+  padding-right: 20px;
+transform: translateX(35px);
+}
+.career{display: none;}
+.career1{
+display: block;
+  padding-top: 100px;
+  background-image: url("https://garden.spoonflower.com/c/10847410/p/f/m/7vlotsOkPVAq7R73XX1FrnqFNXB9ubsJnOWmQTksq34fSgjJesXn/Zomp%20Green%20Solid%20Color.jpg"); 
+  min-height: 84vh;
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;}
+}
+/****************************375*****************************/
+@media screen and (max-width:376px) {
+    /*button*/
+    #button{background-color:#23BDB8 !important;
+      width: 265px;
+      height: 56px;
+      margin-top: 30px !important;
+      }
+      /*text field width*/
+#input-with-icon-textfield{width: 200px;}
+}
+@media screen and (max-width:321px) {
+    /*button*/
+    #button{background-color:#23BDB8 !important;
+      width: 215px;
+      height: 56px;
+      margin-top: 30px !important;
+      }
+      /*text field width*/
+#input-with-icon-textfield{width: 150px;}
+}

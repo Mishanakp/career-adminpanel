@@ -7,6 +7,7 @@ import Consultantdetail from './components/Consultantdetail/Consultantdetail';
 import VerticalTabs from './components/Admintab/Admintab';
 import Admintab from './components/Admintab/Admintab';
 
+
 function App() {
   return (
     <Router>
