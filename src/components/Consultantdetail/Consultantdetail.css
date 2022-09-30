@@ -1,0 +1,20 @@
+/*************section one*************/
+.grid {
+   margin-top: 200px !important;
+}
+.imageone {
+    margin-top: 20px !important;
+    width: 100px !important;
+    height: 100px !important;
+}
+.headone {
+    margin-top: 10px !important;
+    font-weight: 500;
+}
+.headpara {
+    margin-top: -20px !important;
+}
+.headnum {
+    margin-top: -20px !important;
+    margin-left: -53px !important;
+}
