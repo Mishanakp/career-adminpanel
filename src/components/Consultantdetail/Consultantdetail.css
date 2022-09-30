@@ -1,20 +1,245 @@
-/*************section one*************/
-.grid {
-   margin-top: 200px !important;
+
+    .appoinmentheader{
+        margin-top: 100px;
+      background: linear-gradient(to right, #23BDB8, #8EE7BA);
+      height: 200px;
+    }
+    .appoinmentdetails1{
+      
+        align-items: center;
+        margin-top: 10px;
+    }
+    .imagearea{
+      text-align: center;
+    }
+    .textarea{
+      text-align: center!important;
+      margin-top: -5px;
+    }
+    .textarea .headappo{
+      font-size: 26px;
+      color:#0E314C;
+      font-family: 'Poppins', sans-serif;
+    }
+    .appoinmentdetails1 .headul .headli{
+      display: inline-block;
+      margin-right: 52px;
+    }
+    .textarea p2{
+      font-size: 14px;
+      color: #0E314C;
+      font-family: 'Poppins', sans-serif;
+    }
+    .paraaintro p1{
+      font-size: 14px;
+      color: #0E314C;
+      font-family: 'Poppins', sans-serif;
+    }
+     .paraaintro{
+      width: 600px;
+      text-align: justify;
+      margin-left: 170px;
+      line-height: 25px;
+    }
+    .circleimage{
+      height: 200px!important;
+    }
+    .payement{
+      transform: translateY(-100px);
+    }
+    .payementverification{
+      text-align: center;
+    }
+    .schedule {
+      text-align: center!important;
+    }
+    .buttonfaq {
+      position: relative;
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+      background: #23BDB8;
+      padding: 1em 2em;
+      border: none;
+      color: white;
+      font-size: 1.2em;
+      cursor: pointer;
+      outline: none;
+      overflow: hidden;
+      border-radius: 100px;
+    }
+    .buttonfaq span {
+      position: relative;
+      pointer-events: none;
+    }
+ .appos{
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 20px;
+ }
+   .headappo{
+    width:200px;
+    margin-left: 370px;
+   }
+   .appospara{
+   
+    display: flex;
+    margin-left: 230px;
+   }
+   .appospara1{
+    margin-left: 20px;
+    display: flex;
+   }
+.apposparasub{
+    width:250px !important;
+    color:#0E314C;
+      font-family: 'Poppins', sans-serif;
 }
-.imageone {
-    margin-top: 20px !important;
-    width: 100px !important;
-    height: 100px !important;
+.apposparasub1{
+    color:#0E314C;
+      font-family: 'Poppins', sans-serif;
+    width:250px !important;
+    margin-left: -16px;
 }
-.headone {
-    margin-top: 10px !important;
-    font-weight: 500;
-}
-.headpara {
-    margin-top: -20px !important;
-}
-.headnum {
-    margin-top: -20px !important;
-    margin-left: -53px !important;
-}
+    @media screen and (max-width: 1440px){
+      .paraaintro{
+        margin-left: 140px;
+      }
+      .headappo{
+        width:200px;
+        margin-left: 340px;
+       }
+       .appospara{
+   
+        display: flex;
+        margin-left: 200px;
+       }
+    }
+    @media screen and (max-width: 1025px){
+      .paraaintro{
+        margin-left: 100px;
+      }
+      .headappo{
+        width:200px;
+        margin-left: 300px;
+       }
+       .appospara{
+   
+        display: flex;
+        margin-left: 150px;
+       }
+       .appospara1{
+        margin-left: 20px;
+        display: flex;
+       }
+    }
+    @media screen and (max-width: 769px){
+      .payement{
+        box-shadow: none;
+      }
+      .paraaintro{
+        margin-left: 65px;
+      }
+      .headappo{
+        width:200px;
+        margin-left: 250px;
+       }
+       .appospara{
+   
+        display: flex;
+        margin-left: 120px;
+       }
+       .appospara1{
+        margin-left: 20px;
+        display: flex;
+       }
+    }
+    @media screen and (max-width: 426px){
+      .paraaintro{
+        text-align: left;
+        margin-left: 0px;
+        width: 390px;
+      }
+      .headappo{
+        width:200px;
+        margin-left: 80px;
+       }
+      .appoinmentheader{
+        margin-top: 50px;}
+      .appoinmentdetails1 .headul{
+        text-align: left!important;
+        margin-left: 25px;
+      }
+      .appoinmentdetails1 .headul .headli{
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        list-style: none;
+      }
+      .textarea{
+        text-align: center!important;
+      }
+      .textarea p2{
+        font-size: 12px;
+      }
+      .paraaintro p1{
+        font-size: 12px;
+      }
+      .payementverification{
+        text-align: center;
+      }
+      .schedule{
+        text-align: center!important;
+      }
+      .textarea{
+        margin-top: 0px;
+      }
+      .appos{
+        display:block;
+        margin-top: 30px;
+        padding-bottom: 20px;
+     }
+     .appospara{
+   width:300px;
+        display: flex;
+        margin-left: 40px;
+
+       }
+       .appospara1{
+        width:300px;
+        margin-left: 40px;
+        display: flex;
+       }
+    }
+    @media screen and (max-width: 376px){
+      .paraaintro{
+        width: 340px;
+      }
+      .headappo{
+        width:200px;
+        margin-left: 50px;
+       }
+       .appospara{
+        width:300px;
+             display: flex;
+             margin-left: 20px;
+     
+            }
+            .appospara1{
+             width:300px;
+             margin-left: 20px;
+             display: flex;
+            }
+    }
+    @media screen and (max-width: 321px){
+      .paraaintro{
+        width: 270px;
+      }
+      .appoinmentdetails .headul{
+        margin-left: -18px;
+      }
+      .headappo{
+        width:180px;
+        margin-left: 50px;
+       }
+      }
