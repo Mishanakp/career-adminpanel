@@ -46,12 +46,22 @@ import IconButton from '@mui/material/IconButton';
 import CreateIcon from '@mui/icons-material/Create';
 
 
+import CardActions from '@mui/material/CardActions';
+
+
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  boxShadow:'none',
+  color: theme.palette.text.secondary,
+}));
 
 
 function ConsultantTabPanel(props) {
 
 
- 
 
   
   const { children, value, index, ...other } = props;
@@ -308,13 +318,394 @@ export default function ConsultantVerticalTabs() {
       </ConsultantTabPanel>
       <ConsultantTabPanel  className="ConsultantTabPanel2"  value={Consultantvalue} index={1}>
      
-
-
-      </ConsultantTabPanel>
-      <ConsultantTabPanel className="ConsultantTabPanel3"  value={Consultantvalue} index={2}>
+      <div className='displaycards'>
+    <Grid xl={2} lg={2} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+     className='admincounselorcardimg'
+        component="img"
+        alt="green iguana"
       
- 
+        image="https://www.w3schools.com/howto/img_avatar2.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Leena John
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Masters in Business Administration
+        <Grid xl={3} lg={12} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+        </Typography>
+
+      </CardContent>
+    </Card>
+    </Grid>
+
+
+    <Grid xl={2} lg={2} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+     className='admincounselorcardimg'
+        component="img"
+        alt="green iguana"
+      
+        image="https://www.w3schools.com/howto/img_avatar2.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Leena John
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Masters in Business Administration
+        <Grid xl={3} lg={12} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+        </Typography>
+
+      </CardContent>
+    </Card>
+    </Grid>
+
+    <Grid xl={2} lg={2} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+     className='admincounselorcardimg'
+        component="img"
+        alt="green iguana"
+      
+        image="https://www.w3schools.com/howto/img_avatar2.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Leena John
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Masters in Business Administration
+        <Grid xl={3} lg={12} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+        </Typography>
+
+      </CardContent>
+    </Card>
+    </Grid >
+
+    <Grid xl={2} lg={2} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+     className='admincounselorcardimg'
+        component="img"
+        alt="green iguana"
+      
+        image="https://www.w3schools.com/howto/img_avatar2.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Leena John
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Masters in Business Administration
+        <Grid xl={3} lg={12} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+        </Typography>
+
+      </CardContent>
+    </Card>
+    </Grid>
+    <Grid xl={2} lg={2} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+     className='admincounselorcardimg'
+        component="img"
+        alt="green iguana"
+      
+        image="https://www.w3schools.com/howto/img_avatar2.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Leena John
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Masters in Business Administration
+        <Grid xl={3} lg={12} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+        </Typography>
+
+      </CardContent>
+    </Card>
+    </Grid>
+    
+    </div>
+
+
+
+
+
       </ConsultantTabPanel>
+
+<ConsultantTabPanel className="ConsultantTabPanel3"  value={Consultantvalue} index={2}>
+      
+      {/* <Grid xl={.2} lg={.6} md={1}  sm={0.1} xs={1.5}className='margincard'></Grid>
+      <Grid xl={2} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Grid xs={2} sm={2.7} md={2.8} lg={3} xl={3.6}></Grid>
+        <Grid xs={8} sm={6} md={6} lg={6} xl={4.5}>
+          <Item >
+          <img  className='admincardcounselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
+          </Item>
+        </Grid>
+
+          <Grid lg={12} md={12}sm={12} xs={12}>
+            <Item >
+             
+              <Box >
+                <p ><b><span className='name'>Leena John</span> </b></p>
+                <p >Masters in Business Administration</p>
+              </Box>
+            
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+      </Grid>
+ <br/> */}
+ <div className='displaycards'>
+    <Grid xl={2} lg={2} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+     className='admincounselorcardimg'
+        component="img"
+        alt="green iguana"
+      
+        image="https://www.w3schools.com/howto/img_avatar2.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Leena John
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Masters in Business Administration
+        <Grid xl={3} lg={12} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+        </Typography>
+
+      </CardContent>
+    </Card>
+    </Grid>
+
+
+    <Grid xl={2} lg={2} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+     className='admincounselorcardimg'
+        component="img"
+        alt="green iguana"
+      
+        image="https://www.w3schools.com/howto/img_avatar2.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Leena John
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Masters in Business Administration
+        <Grid xl={3} lg={12} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+        </Typography>
+
+      </CardContent>
+    </Card>
+    </Grid>
+
+    <Grid xl={2} lg={2} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+     className='admincounselorcardimg'
+        component="img"
+        alt="green iguana"
+      
+        image="https://www.w3schools.com/howto/img_avatar2.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Leena John
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Masters in Business Administration
+        <Grid xl={3} lg={12} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+        </Typography>
+
+      </CardContent>
+    </Card>
+    </Grid >
+
+    <Grid xl={2} lg={2} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+     className='admincounselorcardimg'
+        component="img"
+        alt="green iguana"
+      
+        image="https://www.w3schools.com/howto/img_avatar2.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Leena John
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Masters in Business Administration
+        <Grid xl={3} lg={12} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+        </Typography>
+
+      </CardContent>
+    </Card>
+    </Grid>
+    <Grid xl={2} lg={2} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+     className='admincounselorcardimg'
+        component="img"
+        alt="green iguana"
+      
+        image="https://www.w3schools.com/howto/img_avatar2.png"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Leena John
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Masters in Business Administration
+        <Grid xl={3} lg={12} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+        </Typography>
+
+      </CardContent>
+    </Card>
+    </Grid>
+    
+    </div>
+    {/* <Grid xl={2} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Grid xs={2} sm={2.7} md={2.8} lg={3} xl={3.6}></Grid>
+        <Grid xs={8} sm={6} md={6} lg={6} xl={4.5}>
+          <Item >
+          <img  className='admincardcounselorcardimg' src='https://www.w3schools.com/howto/img_avatar2.png  ' alt='counselor1'/>
+          </Item>
+        </Grid>
+
+          <Grid lg={12} md={12}sm={12} xs={12}>
+            <Item >
+             
+              <Box >
+                <p ><b><span className='name'>Leena John</span> </b></p>
+                <p >Masters in Business Administration</p>
+              </Box>
+            
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+      </Grid>
+      <Grid xl={2} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='admincounselorlistcard' >
+      <Grid xs={2} sm={2.7} md={2.8} lg={3} xl={3.6}></Grid>
+        <Grid xs={8} sm={6} md={6} lg={6} xl={4.5}>
+          <Item >
+          <img  className='admincardcounselorcardimg' src='https://www.w3schools.com/howto/img_avatar2.png' alt='counselor1'/>
+          </Item>
+        </Grid>
+
+          <Grid lg={12} md={12}sm={12} xs={12}>
+            <Item >
+             
+              <Box >
+                <p ><b><span className='name'>Leena John</span> </b></p>
+                <p >Masters in Business Administration</p>
+              </Box>
+            
+              <Link to="/Consultantdetail">
+              
+              <Button size="small"> More details</Button>
+            
+                </Link>
+          </Item>
+        </Grid>
+      </Grid> */}
+</ConsultantTabPanel>
 
 
 
