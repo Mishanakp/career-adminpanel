@@ -10,6 +10,8 @@ import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import DialogActions from '@mui/material/DialogActions';
 import IconButton from '@mui/material/IconButton';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
 import CloseIcon from '@mui/icons-material/Close';
 import Typography from '@mui/material/Typography';
 import ScheduleIcon from '@mui/icons-material/Schedule';
@@ -72,19 +74,20 @@ function Consultantdetail() {
     <div class="uk-card-header">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
             <div class="imagearea  uk-width-auto">
-                <img class="uk-border-circle circleimage"  src={beautiful} alt=""/>
+                <img class="uk-border-circle circleimage"  src="https://www.w3schools.com/howto/img_avatar2.png" alt=""/>
             </div>
             <div class="textarea uk-width-expand">
               <br/>
-              <div className="appoinmentdetails1">
-                <h3 className='headappo'>POOJA ROY</h3>
+              <div className="userdetails1">
+                <h3 className='headappo'> LEENA JOHN</h3>
                 <div className='appos'>
-                  <p className='appospara'><CalendarMonthIcon   sx={{color:'#23BDB8',fontSize:'25px'}}/><p className='apposparasub'> APPOINMENT DATE:21 JUNE 2022</p></p>
-                  <p className='appospara1'><ScheduleIcon  sx={{color:'#23BDB8',fontSize:'25px'}}/> <p className='apposparasub1'>  APPOINMENT TIME:10:00 AM</p></p>
+                  <p className='calicon'><CalendarMonthIcon   sx={{color:'#23BDB8',fontSize:'25px'}}/><p className='calparasub'> APPOINMENT DATE:21 JUNE 2022</p></p>
+                  <p className='sheicon'><ScheduleIcon  sx={{color:'#23BDB8',fontSize:'25px'}}/> <p className='sheparasub'>  APPOINMENT TIME:10:00 AM</p></p>
                 </div>
          </div>
             <div className="paraaintro">
-            <p1 className="intro">5 years of experience as a Salesman. Motivated, personable business professional with a talent for quickly identifying and resolving problems. Very flexible, versatile, and results-oriented with the ability to build productive relationships.</p1>
+            <p className='emailicon'><EmailIcon   sx={{color:'#23BDB8',fontSize:'25px'}}/> <p1 className="intro">Leenajohn@gamil.com</p1></p>
+            <p className='telephone'><PhoneIcon  sx={{color:'#23BDB8',fontSize:'25px'}}/><p1 className="number">+41-45766879789</p1></p>
             </div>
             </div>
         </div>

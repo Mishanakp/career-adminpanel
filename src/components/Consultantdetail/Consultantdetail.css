@@ -1,6 +1,5 @@
 
     .appoinmentheader{
-        margin-top: 100px;
       background: linear-gradient(to right, #23BDB8, #8EE7BA);
       height: 200px;
     }
@@ -38,8 +37,9 @@
      .paraaintro{
       width: 600px;
       text-align: justify;
-      margin-left: 170px;
+      margin-left: 260px !important;
       line-height: 25px;
+      margin-top: -68px !important;
     }
     .circleimage{
       height: 200px!important;
@@ -76,30 +76,53 @@
     display: flex;
     margin-top: 30px;
     padding-bottom: 20px;
+    margin-left: 30px !important;
  }
    .headappo{
     width:200px;
-    margin-left: 370px;
+    margin-left: 310px !important;
    }
-   .appospara{
-   
+   .calicon{
     display: flex;
     margin-left: 230px;
    }
-   .appospara1{
-    margin-left: 20px;
+   .sheicon{
+    margin-left: -304px !important;
+    display: flex;
+    margin-top: 39px !important;
+   }
+   .emailicon {
+    margin-top: 20px !important;
+    margin-left: -10 !important;
     display: flex;
    }
-.apposparasub{
+   .telephone {
+    margin-top: -4px !important;
+    display: flex;
+   }
+.calparasub{
     width:250px !important;
-    color:#0E314C;
-      font-family: 'Poppins', sans-serif;
+    color:#0E314C !important;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px !important;
+    margin-top: 2px !important;
 }
-.apposparasub1{
-    color:#0E314C;
+.sheparasub{
+    color:#0E314C !important;
       font-family: 'Poppins', sans-serif;
     width:250px !important;
-    margin-left: -16px;
+    margin-left: 10px !important;
+    margin-top: 2px !important;
+}
+.intro {
+    margin-left: 31px !important;
+}
+.number {
+    color:#0E314C !important;
+      font-family: 'Poppins', sans-serif;
+    width:250px !important;
+    margin-left: 30px !important;
+    margin-top: -1px !important;
 }
     @media screen and (max-width: 1440px){
       .paraaintro{
@@ -110,7 +133,6 @@
         margin-left: 340px;
        }
        .appospara{
-   
         display: flex;
         margin-left: 200px;
        }
