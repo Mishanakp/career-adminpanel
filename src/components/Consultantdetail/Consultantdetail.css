@@ -1,267 +1,99 @@
+.detailedbox  {
+  margin-left: 189px !important;
+  margin-top: 38px !important;
+}
+.mainbox {
+   box-shadow: 5px 10px 18px #888888;
+}
+.card1 {
+  max-width: 330px !important;
+  height: 510px !important;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.card2 {
+  max-width: 440px !important;
+  height: 240px !important;
+  margin-top: -135px;
+}
+.card3 {
+  max-width: 440px !important;
+  height: 240px !important;
+  margin-top: 30px;
+}
+.card1head {
+  color:#0E314C !important;
+  margin-top: -5px !important;
+}
+.card2head {
+  color:#0E314C !important;
+}
+.card3head {
+  color:#0E314C !important;
+}
+/* ICON */
 
-    .appoinmentheader{
-      background: linear-gradient(to right, #23BDB8, #8EE7BA);
-      height: 200px;
-    }
-    .appoinmentdetails1{
-      
-        align-items: center;
-        margin-top: 10px;
-    }
-    .imagearea{
-      text-align: center;
-    }
-    .textarea{
-      text-align: center!important;
-      margin-top: -5px;
-    }
-    .textarea .headappo{
-      font-size: 26px;
-      color:#0E314C;
-      font-family: 'Poppins', sans-serif;
-    }
-    .appoinmentdetails1 .headul .headli{
-      display: inline-block;
-      margin-right: 52px;
-    }
-    .textarea p2{
-      font-size: 14px;
-      color: #0E314C;
-      font-family: 'Poppins', sans-serif;
-    }
-    .paraaintro p1{
-      font-size: 14px;
-      color: #0E314C;
-      font-family: 'Poppins', sans-serif;
-    }
-     .paraaintro{
-      width: 600px;
-      text-align: justify;
-      margin-left: 260px !important;
-      line-height: 25px;
-      margin-top: -68px !important;
-    }
-    .circleimage{
-      height: 200px!important;
-    }
-    .payement{
-      transform: translateY(-100px);
-    }
-    .payementverification{
-      text-align: center;
-    }
-    .schedule {
-      text-align: center!important;
-    }
-    .buttonfaq {
-      position: relative;
-      -webkit-appearance: none;
-         -moz-appearance: none;
-              appearance: none;
-      background: #23BDB8;
-      padding: 1em 2em;
-      border: none;
-      color: white;
-      font-size: 1.2em;
-      cursor: pointer;
-      outline: none;
-      overflow: hidden;
-      border-radius: 100px;
-    }
-    .buttonfaq span {
-      position: relative;
-      pointer-events: none;
-    }
- .appos{
-    display: flex;
-    margin-top: 30px;
-    padding-bottom: 20px;
-    margin-left: 30px !important;
+ .emailicon {
+  margin-top: 40px !important;
+  margin-left: 10PX !important;
+  display: flex;
  }
-   .headappo{
-    width:200px;
-    margin-left: 310px !important;
-   }
-   .calicon{
-    display: flex;
-    margin-left: 230px;
-   }
-   .sheicon{
-    margin-left: -304px !important;
-    display: flex;
-    margin-top: 39px !important;
-   }
-   .emailicon {
-    margin-top: 20px !important;
-    margin-left: -10 !important;
-    display: flex;
-   }
-   .telephone {
-    margin-top: -4px !important;
-    display: flex;
-   }
-.calparasub{
-    width:250px !important;
-    color:#0E314C !important;
-    font-family: 'Poppins', sans-serif;
-    margin-left: 30px !important;
-    margin-top: 2px !important;
-}
-.sheparasub{
-    color:#0E314C !important;
-      font-family: 'Poppins', sans-serif;
-    width:250px !important;
-    margin-left: 10px !important;
-    margin-top: 2px !important;
-}
+ .telephone {
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+  display: flex;
+ }
+
 .intro {
-    margin-left: 31px !important;
+  margin-left: 38px !important;
+  color:#0E314C !important;
+  margin-top: 2px !important;
 }
 .number {
-    color:#0E314C !important;
-      font-family: 'Poppins', sans-serif;
-    width:250px !important;
-    margin-left: 30px !important;
-    margin-top: -1px !important;
+  color:#0E314C !important;
+    font-family: 'Poppins', sans-serif;
+  width:250px !important;
+  margin-left: -25px !important;
+  margin-top: -1px !important;
 }
-    @media screen and (max-width: 1440px){
-      .paraaintro{
-        margin-left: 140px;
-      }
-      .headappo{
-        width:200px;
-        margin-left: 340px;
-       }
-       .appospara{
-        display: flex;
-        margin-left: 200px;
-       }
-    }
-    @media screen and (max-width: 1025px){
-      .paraaintro{
-        margin-left: 100px;
-      }
-      .headappo{
-        width:200px;
-        margin-left: 300px;
-       }
-       .appospara{
-   
-        display: flex;
-        margin-left: 150px;
-       }
-       .appospara1{
-        margin-left: 20px;
-        display: flex;
-       }
-    }
-    @media screen and (max-width: 769px){
-      .payement{
-        box-shadow: none;
-      }
-      .paraaintro{
-        margin-left: 65px;
-      }
-      .headappo{
-        width:200px;
-        margin-left: 250px;
-       }
-       .appospara{
-   
-        display: flex;
-        margin-left: 120px;
-       }
-       .appospara1{
-        margin-left: 20px;
-        display: flex;
-       }
-    }
-    @media screen and (max-width: 426px){
-      .paraaintro{
-        text-align: left;
-        margin-left: 0px;
-        width: 390px;
-      }
-      .headappo{
-        width:200px;
-        margin-left: 80px;
-       }
-      .appoinmentheader{
-        margin-top: 50px;}
-      .appoinmentdetails1 .headul{
-        text-align: left!important;
-        margin-left: 25px;
-      }
-      .appoinmentdetails1 .headul .headli{
-        display: block;
-        margin-right: 0px;
-        margin-bottom: 15px;
-        list-style: none;
-      }
-      .textarea{
-        text-align: center!important;
-      }
-      .textarea p2{
-        font-size: 12px;
-      }
-      .paraaintro p1{
-        font-size: 12px;
-      }
-      .payementverification{
-        text-align: center;
-      }
-      .schedule{
-        text-align: center!important;
-      }
-      .textarea{
-        margin-top: 0px;
-      }
-      .appos{
-        display:block;
-        margin-top: 30px;
-        padding-bottom: 20px;
-     }
-     .appospara{
-   width:300px;
-        display: flex;
-        margin-left: 40px;
+.img {
+  height: 100px !important;
+}
+.secondaryboxs {
+  margin-left: 470px !important;
+  margin-top: -400px;
+}
 
-       }
-       .appospara1{
-        width:300px;
-        margin-left: 40px;
-        display: flex;
-       }
-    }
-    @media screen and (max-width: 376px){
-      .paraaintro{
-        width: 340px;
-      }
-      .headappo{
-        width:200px;
-        margin-left: 50px;
-       }
-       .appospara{
-        width:300px;
-             display: flex;
-             margin-left: 20px;
-     
-            }
-            .appospara1{
-             width:300px;
-             margin-left: 20px;
-             display: flex;
-            }
-    }
-    @media screen and (max-width: 321px){
-      .paraaintro{
-        width: 270px;
-      }
-      .appoinmentdetails .headul{
-        margin-left: -18px;
-      }
-      .headappo{
-        width:180px;
-        margin-left: 50px;
-       }
-      }
+.actbutton {
+  margin-left: 12px !important;
+  margin-top: 20px !important;
+}
+.blkbutton {
+  margin-top: 20px !important;
+  margin-left: 12px !important;
+  width: 47% !important;
+}
+
+.compara {
+  color:#0E314C !important;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 5px !important;
+  font-weight: 500 !important;
+}
+.comnum {
+  color:#23BDB8 !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px !important;
+  margin-left: -10px !important;
+  margin-top: 10px !important;
+}
+.uppara {
+  color:#0E314C !important;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 10px !important;
+  margin-top: -20px !important;
+  font-weight: 500 !important;
+}
+
+
+/************* RESPONSIVE SECTION***************/
