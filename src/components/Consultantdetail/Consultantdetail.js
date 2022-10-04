@@ -82,10 +82,10 @@ export default function BoxSx() {
                                         <Typography variant="body2" >
                                               <h3 className='card3head'>Appoinment History</h3>
                                               <p className='compara'>Completed Appoinment   
-                                              <p className='comnum'>04</p>
+                                              <p className='comnum'>10</p>
                                               </p>
                                               <p className='uppara'>Upcoming Appoinment 
-                                              <p className='comnum'>01</p>
+                                              <p className='comnum'>03</p>
                                               </p>
                                         </Typography>
                                     </CardContent>
