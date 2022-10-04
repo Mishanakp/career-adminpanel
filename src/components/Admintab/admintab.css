@@ -1140,3 +1140,22 @@ button.consultantAccordHead5{
  
  
 
+
+
+
+/*****************************consultant***********************************/
+.admincounselorlistcard{background-color: white !important;
+        box-shadow:2px 5px 12px 0 rgb(0 0 0 / 50%);
+        display: flex !important;
+        border-radius: 25% !important;
+        margin: 20px ;
+}
+.admincounselorcardimg{height: 150px !important;
+
+}
+.name{font-size: .1em !important;
+    color: black;
+    font-weight: 100;
+}
+
+.displaycards{display:flex!important;}

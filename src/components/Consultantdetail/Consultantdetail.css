@@ -1,0 +1,99 @@
+.detailedbox  {
+  margin-left: 189px !important;
+  margin-top: 38px !important;
+}
+.mainbox {
+   box-shadow: 5px 10px 18px #888888;
+}
+.card1 {
+  max-width: 330px !important;
+  height: 510px !important;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.card2 {
+  max-width: 440px !important;
+  height: 240px !important;
+  margin-top: -135px;
+}
+.card3 {
+  max-width: 440px !important;
+  height: 240px !important;
+  margin-top: 30px;
+}
+.card1head {
+  color:#0E314C !important;
+  margin-top: -5px !important;
+}
+.card2head {
+  color:#0E314C !important;
+}
+.card3head {
+  color:#0E314C !important;
+}
+/* ICON */
+
+ .emailicon {
+  margin-top: 40px !important;
+  margin-left: 10PX !important;
+  display: flex;
+ }
+ .telephone {
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+  display: flex;
+ }
+
+.intro {
+  margin-left: 38px !important;
+  color:#0E314C !important;
+  margin-top: 2px !important;
+}
+.number {
+  color:#0E314C !important;
+    font-family: 'Poppins', sans-serif;
+  width:250px !important;
+  margin-left: -25px !important;
+  margin-top: -1px !important;
+}
+.img {
+  height: 100px !important;
+}
+.secondaryboxs {
+  margin-left: 470px !important;
+  margin-top: -400px;
+}
+
+.actbutton {
+  margin-left: 12px !important;
+  margin-top: 20px !important;
+}
+.blkbutton {
+  margin-top: 20px !important;
+  margin-left: 12px !important;
+  width: 47% !important;
+}
+
+.compara {
+  color:#0E314C !important;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 5px !important;
+  font-weight: 500 !important;
+}
+.comnum {
+  color:#23BDB8 !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px !important;
+  margin-left: -10px !important;
+  margin-top: 10px !important;
+}
+.uppara {
+  color:#0E314C !important;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 10px !important;
+  margin-top: -20px !important;
+  font-weight: 500 !important;
+}
+
+
+/************* RESPONSIVE SECTION***************/
