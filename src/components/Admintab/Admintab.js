@@ -28,10 +28,10 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Swal from 'sweetalert2'
-
-
+import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
+import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
-//import penicon from '../../../Assets/userprofile/penicon.png';
+
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
@@ -44,6 +44,10 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import CreateIcon from '@mui/icons-material/Create';
+import PersonIcon from '@mui/icons-material/Person';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import AccountCircleTwoToneIcon from '@mui/icons-material/AccountCircleTwoTone';
+import SupervisedUserCircleTwoToneIcon from '@mui/icons-material/SupervisedUserCircleTwoTone';
 
 
 import CardActions from '@mui/material/CardActions';
@@ -183,8 +187,8 @@ export default function ConsultantVerticalTabs() {
       > 
       
             <Tab className="consultantDash" icon={<DashboardIcon className='consultantIcon1'/>} iconPosition="start" label="Dashboard" {...Consultanta11yProps(0)}  />
-            <Tab className="consultantAppt" icon={ <EventNoteIcon className='consultantIcon2' />} iconPosition="start" label="User" {...Consultanta11yProps(1)} />
-            <Tab className="consultantHis" icon={<HistoryIcon className='consultantIcon3' />} iconPosition="start" label="Consultant" {...Consultanta11yProps(2)} />
+            <Tab className="consultantAppt" icon={ <PersonIcon className='consultantIcon2' />} iconPosition="start" label="User" {...Consultanta11yProps(1)} />
+            <Tab className="consultantHis" icon={<PersonIcon className='consultantIcon3' />} iconPosition="start" label="Consultant" {...Consultanta11yProps(2)} />
             
             <button style={{backgroundColor:'white'}} onClick={()=>{Swal.fire({
   title: 'Are you sure,you want to Logout?',
@@ -216,104 +220,61 @@ export default function ConsultantVerticalTabs() {
        </Tabs>
         
       <ConsultantTabPanel className="ConsultantTabPanel1" value={Consultantvalue} index={0}>
-      <Grid container className='origCons'>
-        <Grid item sm={4} xs={12}>
-        <Card  className="consultantCard1">
-      <CardMedia
-        component="img"
-        height="140"
-        image="https://img.freepik.com/free-vector/businessman-planning-events-deadlines-agenda_74855-6274.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207"
-        alt="green iguana"
-        className='consultantGraph1'
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" className='consultantHeadGraph1'>
-          New Task : 20
-        </Typography>
-        
-      </CardContent>
-      
-    </Card>
-        </Grid>
-        <Grid item  sm={4} xs={12}>
-        <Card   className="consultantCard2">
-      <CardMedia
-        component="img"
-        height="140"
-        image="https://img.freepik.com/free-vector/hand-drawn-time-management-concept_52683-55407.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207"
-        alt="green iguana"
-        className='consultantGraph2'
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" className='consultantHeadGraph2'>
-          Ongoing Task : 10
-        </Typography>
-        
-      </CardContent>
-       
-    </Card>
-        </Grid>
-        <Grid item     sm={4} xs={12}>
-        <Card   className="consultantCard3">
-      <CardMedia
-        component="img"
-        height="140"
-        image="https://img.freepik.com/free-vector/businessman-holding-pencil-big-complete-checklist-with-tick-marks_1150-35019.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207"
-        alt="green iguana"
-        className='consultantGraph3'
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" className='consultantHeadGraph3'>
-          Done Task : 2
-        </Typography>
-        
-      </CardContent>
-       
-    </Card>
-        </Grid>
-    </Grid>
-    <Grid container>
-    <Grid item xs={6}>
-        <Card   className="consultantCard4">
-          
-            <CardMedia
-        component="img"
-        height="140"
-        image="https://pic4.zhimg.com/v2-95b2415111e0f1d3380e19b484cc13d8_r.jpg?source=1940ef5c"
-        alt="green iguana"
-        className='consultantGraph4'
-      />
-         
-          
-          
-            
-      
-    </Card>
-    
-    </Grid>
-    <Grid item xs={6}>
-        <Card   className="consultantCard5">
-          
-            <CardMedia
-        component="img"
-        height="140"
-        image="https://img.freepik.com/free-vector/woman-worker-analyzing-digital-data-charts-graphs_88138-705.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207"
-        alt="green iguana"
-        className='consultantGraph5'
-      />
-         
-          
-          
-            
-      
-    </Card>
-    
-    </Grid>
-    
-    
-    </Grid> 
 
- 
+ <Grid container spacing={1}>
+  <Grid xs={2}></Grid>
+  <Grid xs={8}>
+  <div className='gris'>
+  <Grid container spacing>
+<Grid xs={2.5} className='admincard'>
+  <div className='admintabviews'>
+  < CalendarMonthOutlinedIcon  sx={{fontSize:'30px',color:'#23BDB8',marginTop:'-10px'}}/><span className='sidebaruse'>500 Sessions</span>
+</div>
+</Grid>
+<Grid xs={.5}></Grid>
+<Grid xs={2.5} className='admincard'>
+<div className='admintabviews'>
+  < RemoveRedEyeOutlinedIcon id='visi'  sx={{fontSize:'30px',color:'#23BDB8',marginTop:'-10px'}}/><span className='sidebaruse'  >500 Visits</span>
+</div>
+</Grid>
+<Grid xs={.5}></Grid>
+<Grid xs={2.5} className='admincard'>
+<div className='admintabviews'>
+  < PersonOutlineOutlinedIcon  sx={{fontSize:'30px',color:'#23BDB8',marginTop:'-10px'}}/><span className='sidebaruse'>500 Users</span>
+</div>
+</Grid>
+<Grid xs={.5}></Grid>
+<Grid xs={2.5} lg={3} xl={3}className='admincard'>
+<div className='admintabviews'>
+  < PersonOutlineOutlinedIcon  sx={{fontSize:'30px',color:'#23BDB8',marginTop:'-10px'}}/><span className='sidebaruse'>500 Consultants</span>
+</div>
+</Grid>
+  </Grid>
+
+  </div>
+  
+<div className='graphadmin'>
+<h1 className="graphadminhe"> Profit Per month</h1>
+<Card   >
+          
+            <CardMedia
+        component="img"
+        height="140"
+        image="https://blog.hubspot.com/hs-fs/hubfs/Agency_Post/Blog_Images/DataHero_Customers_by_Close_Date.png?width=669&name=DataHero_Customers_by_Close_Date.png"
+        alt="green iguana"
+       
+      />
+         
+          
+          
+            
+      
+    </Card>
+</div>
+</Grid>
+<Grid xs={2}></Grid>
+
+ </Grid>
     
       </ConsultantTabPanel>
       <ConsultantTabPanel  className="ConsultantTabPanel2"  value={Consultantvalue} index={1}>
@@ -734,104 +695,63 @@ export default function ConsultantVerticalTabs() {
         >
           <Typography className='consultantAccordHead1'><DashboardIcon className='consultantAccordIcon1'/> Dashboard</Typography>
         </AccordionSummary>
-        <AccordionDetails className='consultantAccordDet1'>
-        <Grid container className='origCons'>
-        <Grid item sm={4} xs={12}>
-        <Card  className="consultantCard1">
-      <CardMedia
-        component="img"
-        height="140"
-        image="https://img.freepik.com/free-vector/businessman-planning-events-deadlines-agenda_74855-6274.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207"
-        alt="green iguana"
-        className='consultantGraph1'
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" className='consultantHeadGraph1'>
-          New Task : 20
-        </Typography>
-        
-      </CardContent>
-      
-    </Card>
-        </Grid>
-        <Grid item  sm={4} xs={12} >
-        <Card   className="consultantCard2">
-      <CardMedia
-        component="img"
-        height="140"
-        image="https://img.freepik.com/free-vector/hand-drawn-time-management-concept_52683-55407.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207"
-        alt="green iguana"
-        className='consultantGraph2'
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" className='consultantHeadGraph2'>
-          Ongoing Task : 10
-        </Typography>
-        
-      </CardContent>
-       
-    </Card>
-        </Grid>
-        <Grid item     sm={4} xs={12}>
-        <Card   className="consultantCard3">
-      <CardMedia
-        component="img"
-        height="140"
-        image="https://img.freepik.com/free-vector/businessman-holding-pencil-big-complete-checklist-with-tick-marks_1150-35019.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207"
-        alt="green iguana"
-        className='consultantGraph3'
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" className='consultantHeadGraph3'>
-          Done Task : 2
-        </Typography>
-        
-      </CardContent>
-       
-    </Card>
-        </Grid>
-    </Grid>
-    <Grid container>
-    <Grid item sm={6} xs={12}>
-        <Card   className="consultantCard4">
-          
-            <CardMedia
-        component="img"
-        height="140"
-        image="https://pic4.zhimg.com/v2-95b2415111e0f1d3380e19b484cc13d8_r.jpg?source=1940ef5c"
-        alt="green iguana"
-        className='consultantGraph4'
-      />
-         
-          
-          
-            
-      
-    </Card>
-    
-    </Grid>
-    <Grid item sm={6} xs={12}>
-        <Card   className="consultantCard5">
-          
-            <CardMedia
-        component="img"
-        height="140"
-        image="https://img.freepik.com/free-vector/woman-worker-analyzing-digital-data-charts-graphs_88138-705.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207"
-        alt="green iguana"
-        className='consultantGraph5'
-      />
-         
-          
-          
-            
-      
-    </Card>
-    
-    </Grid>
-    
-    
-    </Grid> 
+        <AccordionDetails >
+        <Grid container spacing={1}>
+  <Grid xs={12} md={2} sm={2} ></Grid>
+  <Grid xs={12} md={8} sm={8} >
+  <div className='gris'>
+  <Grid container spacing>
+<Grid xs={12} md={2.5} sm={5}className='admincard'>
+  <div className='admintabviews'>
+  < CalendarMonthOutlinedIcon  sx={{fontSize:'30px',color:'#23BDB8',marginTop:'-10px'}}/><span className='sidebaruse'>500 Sessions</span>
+</div>
+</Grid>
+<Grid xs={12} md={.5} sm={1}></Grid>
+<Grid xs={12}  md={2.5} sm={5}className='admincard' >
+<div className='admintabviews'>
+  < RemoveRedEyeOutlinedIcon id='visi'  sx={{fontSize:'30px',color:'#23BDB8',marginTop:'-10px'}}/><span className='sidebaruse'  >500 Visits</span>
+</div>
+</Grid>
+<Grid xs={12} md={.5} sm={1}></Grid>
+<Grid xs={12} sm={5} md={2.5}className='admincard'>
+<div className='admintabviews'>
+  < PersonOutlineOutlinedIcon  sx={{fontSize:'30px',color:'#23BDB8',marginTop:'-10px'}}/><span className='sidebaruse'>500 Users</span>
+</div>
+</Grid>
+<Grid xs={12} md={.5} sm={1}></Grid>
+<Grid xs={12} md={3} sm={5}className='admincard'>
+<div className='admintabviews'>
+  < PersonOutlineOutlinedIcon  sx={{fontSize:'30px',color:'#23BDB8',marginTop:'-10px'}}/><span className='sidebaruse'>500 Consultants</span>
+</div>
+</Grid>
+  </Grid>
 
+  </div>
+  
+<div >
+<h1 className="graphadminhe"> Profit Per month</h1>
+<Card  >
+          
+            <CardMedia
+        component="img"
+        height="140"
+        image="https://blog.hubspot.com/hs-fs/hubfs/Agency_Post/Blog_Images/DataHero_Customers_by_Close_Date.png?width=669&name=DataHero_Customers_by_Close_Date.png"
+        alt="green iguana"
+       
+      />
+         
+          
+          
+            
+      
+    </Card>
+</div>
+</Grid>
+<Grid xs={2} md={2}></Grid>
+
+ </Grid>
+         
+        
  
         </AccordionDetails>
       </Accordion>
