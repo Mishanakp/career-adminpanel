@@ -25,7 +25,7 @@ export default function BoxSx() {
   return (
       <div>
           <div className='detailedbox'>
-             <Box className='mainbox'
+             <Box className='mainbox' xl={12} lg={12} md={12} sm={12} xs={12}
                   sx={{
                   width: 1000,
                   height: 550,
@@ -33,7 +33,7 @@ export default function BoxSx() {
                   }}>
                   <Grid container rowSpacing={1}
                     columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                      <Grid item xs={6}>
+                      <Grid item xl={6} lg={6} md={6} sm={6} xs={6}>
                           <Card className='card1'>
                             <CardActionArea>
                                 <CardMedia component="img" image="https://www.w3schools.com/howto/img_avatar2.png" alt="person"/>
